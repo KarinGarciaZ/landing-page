@@ -1,0 +1,32 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "This is a landing page project for Ajalax.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "sass": "node-sass assets/scss/main.scss assets/index.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarinGarciaZ/landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarinGarciaZ/landing-page/issues"
+  },
+  "homepage": "https://github.com/KarinGarciaZ/landing-page#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^8.0.4",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
