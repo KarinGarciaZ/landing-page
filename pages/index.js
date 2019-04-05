@@ -1,10 +1,11 @@
-import css from '../assets/index.css'
+import css from '../assets/index.css';
+import MainLayout from '../components/MainLayout';
 
 const index = () => {
   return(
-    <div className={css.index}>
+    <MainLayout className={css.index}>
       Indexxx
-    </div>
+    </MainLayout>
   )
 }
 
